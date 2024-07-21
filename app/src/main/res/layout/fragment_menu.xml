@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main"
+    android:orientation="horizontal">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/orders"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@color/main"
+        android:padding="16dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="16dp"
+        android:background="#08FFFFFF"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingTop="150dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/cat"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:fontFamily="@font/aclonica"
+            android:text="Price below:"
+            android:textColor="@color/sub3"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/price_below"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:ems="10"
+            android:hint="enter price"
+            android:inputType="text"
+            android:textColor="@color/sub3"
+            android:textColorHint="@color/sub2" />
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/aclonica"
+            android:text="Category:"
+            android:textColor="@color/sub3"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/chicken"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/aclonica"
+                android:text="Chicken"
+                android:textColor="@color/sub3" />
+
+            <RadioButton
+                android:id="@+id/beef"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/aclonica"
+                android:text="Beef"
+                android:textColor="@color/sub3" />
+
+            <RadioButton
+                android:id="@+id/veggies"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/aclonica"
+                android:text="Veggies"
+                android:textColor="@color/sub3" />
+
+            <RadioButton
+                android:id="@+id/sea"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/aclonica"
+                android:text="Sea"
+                android:textColor="@color/sub3" />
+
+            <RadioButton
+                android:id="@+id/all"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/aclonica"
+                android:text="All"
+                android:textColor="@color/sub3" />
+
+            <Button
+                android:id="@+id/filter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#15CF1D"
+                android:text="filter" />
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>

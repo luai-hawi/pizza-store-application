@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="250dp">
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/sub1"
+        android:fontFamily="@font/aclonica"
+        android:text="Call us"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/find"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/sub1"
+        android:fontFamily="@font/aclonica"
+        android:text="Find us on Google Maps"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/emailus"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/sub1"
+        android:fontFamily="@font/aclonica"
+        android:text="Send us an Email"
+        android:textColor="@color/black" />
+</LinearLayout>
+
